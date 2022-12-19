@@ -1,0 +1,9 @@
+{
+  "domain": "wakepsX_on_bt",
+  "name": "Wake a PsX over BlueTooth",
+  "documentation": "https://www.home-assistant.io/components/wakepsX_on_bt",
+  "requirements": ["pywakepsXonbt>=0.1.1"],
+  "dependencies": [],
+  "codeowners": ["@FreeTHX"],
+  "version": "0.1.1"
+}
