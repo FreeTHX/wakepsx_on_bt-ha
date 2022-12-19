@@ -12,7 +12,7 @@ send_magic_packet:
       required: true,
       example: 'aa:bb:cc:dd:ee:ff'
     }
-    ps4bt_address: {
+    psXbt_address: {
       description: MAC address of the PsX,
       required: true,
       example: 'aa:bb:cc:dd:ee:ff'

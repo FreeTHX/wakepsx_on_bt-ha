@@ -32,10 +32,10 @@ GET_BT_ADDR_SCHEMA = vol.Schema({})
 
 
 def setup(hass, config):
-    """Set up the wakeps4 on bt component."""
+    """Set up the wakepsX on bt component."""
 
     def send_magic_packet(call):
-        """Send magic packet to wake up a ps4."""
+        """Send magic packet to wake up a psX."""
         adapter = call.data.get(CONF_ADAPTER)
         bt_address_tospoof = call.data.get(CONF_CONTROLER_BT_ADDRESS)
         psX_address_toconnectto = call.data.get(CONF_PLAYSTATION_BT_ADDRESS)
