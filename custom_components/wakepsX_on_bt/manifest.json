@@ -1,8 +1,8 @@
 {
-  "domain": "wakepsX_on_bt",
-  "name": "Wake a PsX over BlueTooth",
-  "documentation": "https://github.com/FreeTHX/wakepsX_on_bt-ha/blob/master/README.md",
-  "issue_tracker": "https://github.com/FreeTHX/wakepsX_on_bt-ha/issues",
+  "domain": "wakepsx_on_bt",
+  "name": "Wake a PlayStation (Ps3, Ps4, Ps5) over BlueTooth",
+  "documentation": "https://github.com/FreeTHX/wakepsx_on_bt-ha/blob/master/README.md",
+  "issue_tracker": "https://github.com/FreeTHX/wakepsx_on_bt-ha/issues",
   "requirements": ["pywakepsXonbt>=0.1.1"],
   "dependencies": [],
   "integration_type": "device",
