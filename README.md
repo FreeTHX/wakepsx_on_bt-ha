@@ -1,4 +1,4 @@
-# wakepsx_on_bt Wake ps3,ps4,ps5 on BlueTooth
+# wakepsx_on_bt Wake Playstation (Ps3, Ps4, Ps5) on BlueTooth
 
 ### HASS Integration
 Copy the custom_components folder to get it install under '/config/custom_components/wakepsx_on_bt/'.  
@@ -16,6 +16,6 @@ switch:
 ```
 
 ### Get device BT addresses
-To get the reequired bluetooth addr, go to the Home Assistant Developer-Tools, Service page.  
+To get the required bluetooth addr, go to the Home Assistant Developer-Tools, Service page.  
 Plug the SixAxis, DualShock or DualSense controler and run the wakepsx_on_bt: get_bt_addr service.  
 Info will be accessible on the logs, in a WARNING message.  
