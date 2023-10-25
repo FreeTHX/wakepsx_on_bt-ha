@@ -1,22 +1,18 @@
 send_magic_packet:
-  description: Send a 'magic packet' to wake up a ps3,ps4,ps5 over bluetooth
   fields:
-    adapter: {
-      description: Bluetooth adapter used to send the packet,
-      required: true,
-      default: 'hci0',
-      example: 'hci0'
-    }
-    dsbt_address: {
-      description: MAC address of the paired SixAxis/DualShock/DualSense,
-      required: true,
-      example: 'aa:bb:cc:dd:ee:ff'
-    }
-    psXbt_address: {
-      description: MAC address of the PsX,
-      required: true,
-      example: 'aa:bb:cc:dd:ee:ff'
-    }
+    adapter:
+      required: true
+      example: "hci0"
+      default: "hci0"
+      selector:
+        text:
+    dsbt_address:
+      example: "aa:bb:cc:dd:ee:ff"
+      selector:
+        text:
+    psxbt_address:
+      example: "aa:bb:cc:dd:ee:ff"
+      selector:
+        text:
+
 get_bt_addr:
-  description: Plug the Sony contoler on USB and launch this service to get SixAxis/DualShock/DualSense and Playstation Bluetooth Addresses
-  

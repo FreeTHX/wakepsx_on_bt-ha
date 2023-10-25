@@ -1,0 +1,34 @@
+{
+    "services":
+    {
+        "send_magic_packet":
+        {
+            "name": "Envoie un 'paquet magique' en BT",
+            "description": "Envoie un 'paquet magique' en Bluetooth pour allumer votre console PlayStation (Ps3, Ps4 ou Ps5).",
+            "fields":
+            {
+                "adapter":
+                {
+                    "name": "Adaptateur BT",
+                    "description": "Adaptateur Bluetooth à utiliser pour envoyer le paquet."
+                },
+                "dsbt_address":
+                {
+                    "name": "Adresse BT de la manette",
+                    "description": "Adresse Bluetooth de la manette (SixAxis/DualShock/DualSense)."
+                },
+                "psxbt_address":
+                {
+                    "name": "Adresse BT de la console",
+                    "description": "Adresse Bluetooth de la console PlayStation (Ps3, Ps4 ou Ps5)."
+                }
+            }
+        },
+        "get_bt_addr":
+        {
+            "name": "Obtenir les adresses BT",
+            "description": "Brancher la manette en USB et lancer ce service pour obtenir les adresses Bluetooth de la manette (SixAxis/DualShock/DualSense) et de la console PlayStation (Ps3, Ps4 ou Ps5)."
+        }
+    }
+}
+    

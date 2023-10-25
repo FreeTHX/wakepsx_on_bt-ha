@@ -1,0 +1,33 @@
+{
+    "services":
+    {
+        "send_magic_packet":
+        {
+            "name": "Send magic packet over BT",
+            "description": "Send a 'magic packet' to wake up a PlayStation (Ps3, Ps4, Ps5) over bluetooth.",
+            "fields":
+            {
+                "adapter":
+                {
+                    "name": "BT adapter",
+                    "description": "Bluetooth adapter used to send the packet."
+                },
+                "dsbt_address":
+                {
+                    "name": "Controler BT address",
+                    "description": "Bluetooth address of the paired controler (SixAxis/DualShock/DualSense)."
+                },
+                "psxbt_address":
+                {
+                    "name": "Console BT address",
+                    "description": "Bluetooth address of the PlayStation console (Ps3, Ps4 ou Ps5)."
+                }
+            }
+        },
+        "get_bt_addr":
+        {
+            "name": "Get BT addresses",
+            "description": "Plug the paired contoler on USB and launch this service to get the controler (SixAxis/DualShock/DualSense) and PlayStation console (Ps3, Ps4 ou Ps5) Bluetooth Addresses."
+        }
+    }
+}
