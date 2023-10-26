@@ -18,4 +18,4 @@ switch:
 ### Get device BT addresses
 To get the required bluetooth addr, go to the Home Assistant Developer-Tools, Service page.  
 Plug the SixAxis, DualShock or DualSense controler and run the wakepsx_on_bt: get_bt_addr service.  
-Info will be accessible on the logs, in a WARNING message.  
+Info will be accessible in the ServiceResponse.  
