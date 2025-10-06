@@ -66,14 +66,14 @@ def setup(hass: HomeAssistant, config: ConfigType) -> bool:
         
         return res
 
-    hass.services.async_register(
+    hass.services.register(
         DOMAIN,
         SERVICE_SEND_MAGIC_PACKET,
         send_magic_packet,
         schema=WAKEPSX_ON_BT_SEND_MAGIC_PACKET_SCHEMA,
     )
 
-    hass.services.async_register(
+    hass.services.register(
         DOMAIN,
         SERVICE_GET_BT_ADDR,
         get_bt_addr,
