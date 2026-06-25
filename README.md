@@ -1,3 +1,10 @@
+> [!WARNING]
+> ## This project is deprecated
+>
+> **`wakepsx_on_bt-ha`** has been superseded by **[wakepsx-on-bt](https://github.com/FreeTHX/wakepsx-on-bt)**, which consolidates PS3, PS4, and PS5 Bluetooth wake support into a single Home Assistant integration — now complemented by a dedicated **ESPHome firmware** for more reliable and always-available Bluetooth wake.
+>
+> **Please migrate to [wakepsx-on-bt](https://github.com/FreeTHX/wakepsx-on-bt)** — this repository is no longer maintained.
+
 # wakepsx_on_bt Wake Playstation (Ps3, Ps4, Ps5) on BlueTooth
 
 ### HASS Integration
